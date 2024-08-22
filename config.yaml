@@ -375,14 +375,13 @@ pcbs:
         where:
           ref: matrix_fourth_bottom
           shift: [-pushX, pushY]
-      # Write "<3" on the PCB
       front_text: &text
         what: text
         where: &textWhere
             ref: matrix_fourth_num
             shift: [-8.7, 5.5]
         params: &textParams
-            text: <3
+            text: WHISPER
             justify: left
             h_size: 3.0
             v_size: 3.0
@@ -501,14 +500,13 @@ pcbs:
         where:
           ref: mirror_matrix_third_bottom
           shift: [pushX, pushY]
-      # Write "<3" on the PCB
       front_text: &text
         what: text
         where: &textWhere
             ref: mirror_matrix_fourth_num
             shift: [8.7, 5.5]
         params: &textParams
-            text: <3
+            text: WHISPER
             justify: left
             h_size: 3.0
             v_size: 3.0
