@@ -1,3 +1,4 @@
-unrouted left pcb example:
 
-![](imgs/pcb.png)
+|Left PCB (Routed)|Right PCB (Routed)|
+|-|-|
+|![](imgs/left_pcb.png)|![](imgs/right_pcb.png)|
