@@ -36,19 +36,19 @@ points:
             column_net: P022 
         third:
           key:
-            stagger: 5
+            stagger: 2.5
             column_net: P024
         fourth:
           key:
-            stagger: 5
+            stagger: 2.5
             column_net: P100 
         fifth:
           key:
-            stagger: -5
+            stagger: -2.5
             column_net: P011
         sixth:
           key:
-            stagger: -5
+            stagger: -2.5
             column_net: P017
       rows:
         mod:
@@ -314,7 +314,7 @@ pcbs:
           orientation: up
         where:
           ref: matrix_sixth_num
-          shift: [-9, -1.5]
+          shift: [-9, -1]
           rotate: -180.0
       # Battery jack
       jstph:
